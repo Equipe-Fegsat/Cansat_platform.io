@@ -27,8 +27,6 @@ O firmware roda em um microcontrolador **STM32F407**, lê sensores atmosféricos
 | **Módulo LoRa** | Comunicação e localização do CanSat | [SPI / UART – confirmar] |
 | **USART2** | Saída serial de depuração | UART, 115200 baud |
 
-> [Observação: a IMU prevista para a versão final é o ICM42688. Atualize esta tabela quando o driver for integrado ao firmware, ou remova esta nota.]
-
 ### Pinagem
 
 | Função | Pino |
@@ -91,13 +89,8 @@ Temp: 25.30°C | Press: 1013.25 hPa | Hum: 48.50%
 ## Próximos passos
 
 - [ ] Integrar o módulo LoRa (telemetria e localização)
-- [ ] Integrar o ICM42688 como IMU
 - [ ] [Outros itens, como armazenamento em cartão SD ou estrutura do pacote de telemetria]
 
 ## Equipe
 
 Projeto desenvolvido pela **FegSat**, equipe de nanossatélites da Unesp Guaratinguetá.
-
-## Licença
-
-[Defina a licença, ex.: MIT, ou remova esta seção.]
